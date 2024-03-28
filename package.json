@@ -1,6 +1,6 @@
 {
   "name": "@saktiporn/hello-crypto-wallet",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate wallet multi chain support chain [ETH,BNB,BINCOIN,XLM]",
   "main": "index.js",
   "scripts": {
