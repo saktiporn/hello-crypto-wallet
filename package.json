@@ -6,7 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Geneate Wallet ETH","Crypto Wallet","ETH","BINCOIN"],
+  "keywords": [
+    "Geneate Wallet ETH",
+    "Crypto Wallet",
+    "ETH",
+    "BINCOIN"
+  ],
   "author": "Saktiporn [suktipond.deemak@gmail.com]",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ethers": "^6.11.1"
+  }
 }
