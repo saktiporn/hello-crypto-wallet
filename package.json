@@ -1,6 +1,6 @@
 {
   "name": "@saktiporn/hello-crypto-wallet",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate wallet multi chain support chain [ETH,BNB,BINCOIN,XLM]",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "BINCOIN"
   ],
   "author": "Saktiporn [suktipond.deemak@gmail.com]",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "crypto": "^1.0.1",
     "ethers": "^6.11.1"

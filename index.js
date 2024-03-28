@@ -1,15 +1,19 @@
-class MultiWallet
-{
-    ethWallet=function(){
-
-    }
-}
 //Support[ETH]
-function geneateWallet(type='eth',totalWallet=1){
-    var w=new MultiWallet();
-    w.ethWallet();
+function geneateWallet(type='eth'){
     var privateKey="";
     var publicKey=""; 
-    return new Array();
+    switch (type){
+        case 'eth':
+            var ethers = require('ethers');  
+            var crypto = require('crypto'); 
+            var id = crypto.randomBytes(32).toString('hex');
+            privateKey = "0x"+id; 
+            var wallet = new ethers.Wallet(privateKey);  
+            publicKey=wallet.address;  
+        break;
+    } 
+    console.log("PublicKey:"+publicKey);
+    console.log("PrivateKey:"+privateKey);
+    return [publicKey,privateKey];
 }
-modules.export=geneateWallet;
+module.exports=geneateWallet;
