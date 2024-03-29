@@ -13,8 +13,11 @@
     "BINCOIN"
   ],
   "author": "Saktiporn [suktipond.deemak@gmail.com]",
-  "license": "MIT",
-  "repository": "https://github.com/saktiporn/hello-crypto-wallet",
+  "license": "MIT", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saktiporn/hello-crypto-wallet"
+  },
   "dependencies": {
     "crypto": "^1.0.1",
     "ethers": "^6.11.1",
