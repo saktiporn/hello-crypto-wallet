@@ -1,6 +1,6 @@
 {
   "name": "@saktiporn/hello-crypto-wallet",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Generate wallet multi chain support chain [ETH,BNB,BINCOIN,XLM]",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "license": "MIT", 
   "repository": {
     "type": "git",
-    "url": "https://github.com/saktiporn/hello-crypto-wallet"
+    "url": "https://github.com/saktiporn/hello-crypto-wallet/.git"
   },
   "dependencies": {
     "crypto": "^1.0.1",
